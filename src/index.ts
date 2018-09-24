@@ -27,6 +27,9 @@ import { ProjectRoot } from './editor/typings/project';
 import SceneManager from './editor/scene/scene-manager';
 import SceneFactory from './editor/scene/scene-factory';
 
+import PrefabAssetComponent from './editor/prefabs/asset-component';
+import { Prefab, PrefabNodeType } from './editor/prefabs/prefab';
+
 export default Editor;
 export {
     Editor,
@@ -59,5 +62,8 @@ export {
     ProjectRoot,
 
     SceneManager,
-    SceneFactory
+    SceneFactory,
+
+    PrefabAssetComponent,
+    Prefab, PrefabNodeType
 }
